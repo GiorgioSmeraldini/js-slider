@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%; /* larghezza del div relativa al contenitore */
+    height: 80%; /* altezza del div relativa al contenitore */
+    background-color: #f0f0f0; /* colore di sfondo del div */
+    border: 1px solid #ccc; /* bordo del div */
+    text-align: center; /* allinea il testo al centro all'interno del div */
+    padding: 20px; /* spazio interno del div */
+}
+
+#big_image {
+    float: left;
+    position: relative; /* modifica la posizione relativa al contenitore */
+    width: 70%; /* larghezza del div relativa al contenitore */
+    height: 90%; /* altezza del div relativa al contenitore */
+    background-color: #b83232; /* colore di sfondo del div */
+    border: 1px solid #ccc; /* bordo del div */
+    text-align: center; /* allinea il testo al centro all'interno del div */
+    margin: 0 auto; /* centra il div orizzontalmente */
+    padding: 20px; /* spazio interno del div */
+}
+
+#all_images {
+    float: right;
+    position: relative; /* modifica la posizione relativa al contenitore */
+    width: 20%; /* larghezza del div relativa al contenitore */
+    height: 90%; /* altezza del div relativa al contenitore */
+    background-color: #1adcc2; /* colore di sfondo del div */
+    border: 1px solid #ccc; /* bordo del div */
+    text-align: center; /* allinea il testo al centro all'interno del div */
+    margin: 0 auto; /* centra il div orizzontalmente */
+    padding: 20px; /* spazio interno del div */
+}
+
+.single_image {
+    float: left;
+    position: relative; /* modifica la posizione relativa al contenitore */
+    width: 100%; /* larghezza del div relativa al contenitore */
+    height: 25%; /* altezza del div relativa al contenitore */
+    background-color: #2aa48c; /* colore di sfondo del div */
+    border: 1px solid #ccc; /* bordo del div */
+    text-align: center; /* allinea il testo al centro all'interno del div */
+    margin: 0 auto; /* centra il div orizzontalmente */
+    
+}
+
+#all_images  div:nth-child(1) {
+    background-color: #5b6392;
+}
+
+#all_images div:nth-child(2){
+    background-color: #cd6a39;
+}
+
+#all_images  div:nth-child(3) {
+    background-color: #097eec;
+}
+
+#all_images div:nth-child(4) {
+    background-color: #f5274d;
+}
